@@ -11,7 +11,6 @@
 <script type="text/javascript">
     // 设置地图中心，此处进行坐标转换， 把EPSG:4326(经纬度坐标)，转换为EPSG:3857(WGS84网络墨卡托(辅助球))坐标，因为ol默认使用的是EPSG:3857坐标
     //[106.677, 36.7388]是下载地图的中心经纬度
-
     var centerPos = ol.proj.transform([106.677, 36.7388], 'EPSG:4326', 'EPSG:3857');
 
     //创建地图
