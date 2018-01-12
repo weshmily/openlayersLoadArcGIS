@@ -47,12 +47,12 @@
                 var x = 'C' + zeroFill(coordinate[1], 8, 16);
                 var y = 'R' + zeroFill(-coordinate[2] - 1, 8, 16);
                 var z = 'L' + zeroFill(coordinate[0], 2, 10);
-                return '_alllayers/' + z + '/' + y + '/' + x + '.jpg';
+                return '_alllayers/' + z + '/' + y + '/' + x + '.jpg';//这里可以修改地图路径
             },
             projection: 'EPSG:3857'
         })
     });
-    map.addLayer(tileLayer);
+    map.addLayer(tileLayer);//添加到map里面
 </script>
 </body>
 </html>
