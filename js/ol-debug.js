@@ -1,4 +1,4 @@
-// OpenLayers. See https://openlayers.org/
+ // OpenLayers. See https://openlayers.org/
 // License: https://raw.githubusercontent.com/openlayers/openlayers/master/LICENSE.md
 // Version: v4.6.4
 ;(function (root, factory) {
